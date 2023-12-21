@@ -18,7 +18,7 @@ const Footer = ()=>{
           <FaInstagram {...iconeProps} />
         </div>
         <span>
-          Desenvolvido por Alura.
+          Desenvolvido por fgrdz.
         </span>
       </footer>
     )
