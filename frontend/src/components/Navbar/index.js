@@ -1,4 +1,6 @@
 import style from'./navbar.module.scss'
+import 'magic.css/dist/magic.min.css';
+
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 import classNames from 'classnames'
 import {
@@ -14,7 +16,7 @@ const Navbar = ()=>{
     return(
         <>
             <nav className={style.nav}>
-                <Logo className={style.logo}/>
+            <Logo className="style.logo magictime swap" />
                 <div className={style.links}>
                     <div>
                         <a href='/' className={classNames(style.link,{[style.selected]:window.location.pathname==='/'})}>
